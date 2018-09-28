@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "backgrounder/version"
 
 Gem::Specification.new do |s|
-  s.name        = "carrierwave_backgrounder"
+  s.name        = "carrierwave_backgrounder_revived"
   s.version     = CarrierWave::Backgrounder::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Larry Sprock"]
