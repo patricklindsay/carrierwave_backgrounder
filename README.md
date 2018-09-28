@@ -1,7 +1,17 @@
-# CarrierWave Backgrounder
+# CarrierWave Backgrounder Revived
 
 [![Build Status](https://secure.travis-ci.org/lardawge/carrierwave_backgrounder.png)](http://travis-ci.org/lardawge/carrierwave_backgrounder)
 [![Code Climate](https://codeclimate.com/github/lardawge/carrierwave_backgrounder.png)](https://codeclimate.com/github/lardawge/carrierwave_backgrounder)
+
+Decided to revive this project. Currently changes are;
+* ActiveJob no longer errors out but is basically working as InlineJob
+* Released v1.0.0 to prevent having to point to master
+
+```ruby
+gem 'carrierwave_backgrounder_revived'
+```
+
+---
 
 I like CarrierWave. That being said, I don't like tying up app instances waiting for images to process.
 
